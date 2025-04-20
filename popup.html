@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>NightGuard</h1>
+
+  <label>
+    <input type="checkbox" id="toggleNight"> Enable Night Mode
+  </label>
+
+  <div class="control">
+    <label for="brightnessSlider">Brightness</label>
+    <input type="range" id="brightnessSlider" min="50" max="150" value="100">
+  </div>
+
+  <div class="control">
+    <label for="themeSelect">Theme</label>
+    <select id="themeSelect">
+      <option value="default">Dark</option>
+      <option value="sepia">Sepia</option>
+      <option value="navy">Navy Blue</option>
+    </select>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

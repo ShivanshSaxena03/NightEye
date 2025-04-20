@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 15px;
+    background: #2c2c2c;
+    color: white;
+    width: 240px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .control {
+    margin-top: 10px;
+  }
+  
+  input[type="range"],
+  select {
+    width: 100%;
+  }
+  

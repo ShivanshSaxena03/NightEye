@@ -1,0 +1,18 @@
+/* Default Dark Theme */
+.nightguard-theme-default {
+    background-color: #121212 !important;
+    color: #dcdcdc !important;
+  }
+  
+  /* Sepia Theme */
+  .nightguard-theme-sepia {
+    background-color: #f4ecd8 !important;
+    color: #5b4636 !important;
+  }
+  
+  /* Navy Blue Theme */
+  .nightguard-theme-navy {
+    background-color: #0b1c2c !important;
+    color: #b0c7d1 !important;
+  }
+  
